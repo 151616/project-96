@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Chatty!</title>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="chatty-login.css">
+    
+    </head>
+    <body>
+        <center>
+            <div class="container" id="container">
+            <div id="login_div">
+                <label id="title">Chatty
+                    <sup>
+                        <img id="logo" src="logo.png">
+                    </sup>
+                </label>
+                <br>
+                <br>
+                <label id="title2">The Best School Chatting App The World Has Ever Seen!</label>
+                <br>
+                <br>
+                <label id="title_3">Please put your name below!</label>
+                <br>
+                <br>
+                <input type="text" id="username_input" placeholder="Put your name here">
+                <br>
+                <br>
+                <button id="submit" class="btn btn-success" onclick="submit()">Continue</button>
+            </div>
+            </div>
+        </center>
+        <script src="chatty-login.js"></script>
+    </body>
+</html>
