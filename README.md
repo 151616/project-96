@@ -1,0 +1,1 @@
+First type in your username, then click continue. The password for the teacher page is 12821. type that in, and then you will go to another page. you can click on a room, or you can make your own one. you cannot put any periods, commas, or symbols like those.
